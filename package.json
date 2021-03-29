@@ -1,0 +1,37 @@
+{
+  "name": "favroexporter",
+  "version": "1.0.0",
+  "description": "Export Favro data",
+  "main": "out/index.js",
+  "scripts": {
+    "build": "tsc",
+    "execute": "tsc && node ./out/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Favro/FavroExport.git"
+  },
+  "author": "Favro AB",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Favro/FavroExport/issues"
+  },
+  "homepage": "https://github.com/Favro/FavroExport#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "sanitize-filename": "^1.6.3",
+    "xlsx": "^0.16.9"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/lodash": "^4.14.168",
+    "@types/moment": "^2.13.0",
+    "@types/node": "^14.14.37",
+    "@types/request-promise-native": "^1.0.17",
+    "@types/sanitize-filename": "^1.6.3",
+    "@types/xlsx": "0.0.36",
+    "typescript": "^4.2.3"
+  }
+}

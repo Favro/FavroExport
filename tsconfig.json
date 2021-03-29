@@ -1,0 +1,13 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"alwaysStrict": true,
+		"sourceMap": true,
+		"outDir": "out",
+		"target": "es6",
+	},
+	"include": [
+		"node_modules/@types/*/*.d.ts",
+		"src/**/*",
+	],
+}
