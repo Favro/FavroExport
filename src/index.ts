@@ -10,7 +10,7 @@ import moment = require("moment");
 import sanitizeFileName = require("sanitize-filename");
 import axios from 'axios';
 
-import { SpreadSheet } from "./spreadsheet";
+import { SpreadSheet } from "./SpreadSheet";
 
 // The file
 const outputDirectory = process.argv[2];
